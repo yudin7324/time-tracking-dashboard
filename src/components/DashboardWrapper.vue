@@ -72,8 +72,8 @@ const updateTimeframe = (newTimeframe) => {
     />
 
     <InfoCard
-      v-for="card in filteredCards"
-      :key="card.id"
+      v-for="(card, index) in filteredCards"
+      :key="index"
       :title="card.title"
       :current="card.current"
       :previous="card.previous"

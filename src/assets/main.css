@@ -1,0 +1,18 @@
+@import './base.css';
+
+#app {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 81px 24px;
+}
+
+@media (min-width: 1024px) {
+  #app {
+    padding: 0;
+  }
+
+  body {
+    display: flex;
+    place-items: center;
+  }
+}

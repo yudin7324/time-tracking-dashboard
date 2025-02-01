@@ -58,7 +58,7 @@
     flex-grow: 1;
     padding: 32px 29px;
     border-radius: 15px;
-    background: var(--violet);
+    background: #5747EA;
     gap: 17px;
   }
 

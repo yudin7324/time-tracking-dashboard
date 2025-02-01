@@ -1,5 +1,5 @@
 <script setup>
-  import IconEllipsis from "./icons/IconEllipsis.vue";
+  import IconEllipsis from "@/components/icons/IconEllipsis.vue";
 
   defineProps({
     title: { type: String },

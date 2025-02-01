@@ -1,5 +1,5 @@
 <script setup>
-  import avatar from '../assets/images/image-jeremy.png';
+  import avatar from '@/assets/images/image-jeremy.png';
 
   defineProps({
     activeTimeframe: String

@@ -1,13 +1,13 @@
 <script setup>
 import { ref, onMounted, computed } from 'vue'
-import MainCard from './MainCard.vue';
-import InfoCard from './InfoCard.vue';
-import IconWork from './icons/IconWork.vue';
-import IconStudy from './icons/IconStudy.vue';
-import IconPlay from './icons/IconPlay.vue';
-import IconSelfCare from './icons/IconSelfCare.vue';
-import IconExercise from './icons/IconExercise.vue';
-import IconSocials from './icons/IconSocial.vue';
+import MainCard from '@/components/MainCard.vue';
+import InfoCard from '@/components/InfoCard.vue';
+import IconWork from '@/components/icons/IconWork.vue';
+import IconStudy from '@/components/icons/IconStudy.vue';
+import IconPlay from '@/components/icons/IconPlay.vue';
+import IconSelfCare from '@/components/icons/IconSelfCare.vue';
+import IconExercise from '@/components/icons/IconExercise.vue';
+import IconSocials from '@/components/icons/IconSocial.vue';
 
 const cards = ref([]);
 const activeTimeframe = ref('daily');

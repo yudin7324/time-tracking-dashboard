@@ -74,6 +74,7 @@
   .main-card__avatar {
     height: 78px;
     width: 78px;
+    min-width: 78px;
     border-radius: 50%;
     border: 3px solid var(--color-white);
     overflow: hidden;

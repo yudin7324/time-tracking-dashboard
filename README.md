@@ -1,4 +1,4 @@
-# Frontend Mentor - Time Tracking Dashboard
+#Time Tracking Dashboard
 
 ![Design preview for the Time Tracking Dashboard coding challenge](./design/desktop-preview.jpg)
 
